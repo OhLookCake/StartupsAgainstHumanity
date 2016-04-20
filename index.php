@@ -81,7 +81,7 @@
 			<p> 
 			With a startup for just about anything out there, we decided to mash the popular "It's like x for y" elevator pitch with cards from Cards Against Humanity. Some people find it entertaining to just read the pitch and giggle silently to themselves.
 			<p>
-			If you're in a group, it's more fun to play it such that one person comes up with a name and a business model for the startup. Other members of the group indicate their level of amusement by announcing how much hypothetical money they would be willing to invest in this hypothetical startup.
+			If you're in a group, it's more fun if one person comes up with a name and a business model for the startup. Other members of the group indicate their level of amusement by announcing how much hypothetical money they would be willing to invest in this hypothetical startup.
 			<p>
 			This is not a complicated game. 
 			</h4>
