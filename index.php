@@ -57,7 +57,7 @@
 				echo "It's like $startup for $card";
 				echo "</h2>";
 				echo "<div class = \"sharebuttons\">";
-				echo "<a href=\"https://twitter.com/share\" class=\"twitter-share-button\" data-text=\"It's like $startup for $card\" data-hashtags=\"SAgainstH\" data-dnt=\"true\">Tweet</a>";
+				echo "<a href=\"https://twitter.com/share\" class=\"twitter-share-button\" data-text=\"It's like $startup for $card\" data-hashtags=\"StartupsAgainstHumanity\" data-dnt=\"true\">Tweet</a>";
 				echo "&nbsp;&nbsp;";
 				echo "<iframe src=\"https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fwww.m-w.com&layout=button&mobile_iframe=true&width=57&height=20&appId\" width=\"57\" height=\"20\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\"></iframe>";
 				echo "</div>";
