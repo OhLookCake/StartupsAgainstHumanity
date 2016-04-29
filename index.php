@@ -29,6 +29,7 @@
 
 </head>
 <body>
+
 <!-- main idea  -->
 <div class="bodycontent">
 	<div class = "box">
@@ -40,8 +41,7 @@
 		</div>	
 		
 		<div class="mainidea">
-			<h2>
-			 <?php
+			<?php
 				$cardfilename = 'wcards.txt';
 				$startupfilename = 'startups.txt';
 
@@ -53,14 +53,23 @@
 				$startup = $startupfile[rand(0, count($startupfile) - 1)];
 				$startup= str_replace(array("\n", "\r"), '', $startup);
 				
-				
+				echo "<h2>";
 				echo "It's like $startup for $card";
-				
-			 ?>
-			</h2>
+				echo "</h2>";
+				echo "<div class = \"sharebuttons\">";
+				echo "<a href=\"https://twitter.com/share\" class=\"twitter-share-button\" data-text=\"It's like $startup for $card\" data-hashtags=\"SAgainstH\" data-dnt=\"true\">Tweet</a>";
+				echo "&nbsp;&nbsp;";
+				echo "<iframe src=\"https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fwww.m-w.com&layout=button&mobile_iframe=true&width=57&height=20&appId\" width=\"57\" height=\"20\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\"></iframe>";
+				echo "</div>";
+
+			?>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
 			<h3>
 			<a href="javascript:window.location.reload()">Moar!</a>
 			</h3>
+
+
 		</div>
 	</div>
 	</div>
@@ -104,6 +113,7 @@
 	</div>
 </div>
 <!-- /rules and other stuff  -->
+
 <!-- go to top -->
 <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 0;"></span> <span id="toTopHover" style="opacity: 0;"> </span></a>
 <!--/go to top -->
