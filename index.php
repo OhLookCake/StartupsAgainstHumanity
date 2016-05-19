@@ -59,14 +59,14 @@
 				echo "<div class = \"sharebuttons\">";
 				echo "<a href=\"https://twitter.com/share\" class=\"twitter-share-button\" data-text=\"It's like $startup for $card\" data-hashtags=\"StartupsAgainstHumanity\" data-dnt=\"true\">Tweet</a>";
 				echo "&nbsp;&nbsp;";
-				echo "<iframe src=\"https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fwww.m-w.com&layout=button&mobile_iframe=true&width=57&height=20&appId\" width=\"57\" height=\"20\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\"></iframe>";
+				echo "<iframe src=\"https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fwww.sagainsth.com&layout=button&mobile_iframe=true&width=57&height=20&appId\" width=\"57\" height=\"20\" style=\"border:none;overflow:hidden\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\"></iframe>";
 				echo "</div>";
 
 			?>
 			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
 			<h3>
-			<a href="javascript:window.location.reload()">Moar!</a>
+			<a href="javascript:window.location.reload()">More!</a>
 			</h3>
 
 
@@ -92,7 +92,7 @@
 			<p>
 			If you're in a group, it's more fun if one person comes up with a name and a business model for the startup. Other members of the group indicate their level of amusement by announcing how much hypothetical money they would be willing to invest in this hypothetical startup.
 			<p>
-			This is not a complicated game. 
+			Hit 'More!' to get a new one. This is not a complicated game. 
 			</h4>
 		</div>
 		<div class="legal">
@@ -105,7 +105,7 @@
 			<p>
 			The companies named are their own trademarks. Probably. 
 			<p>
-			Created by <a href="https://twitter.com/OhLookCake">Eeshan Malhotra </a>
+			Created by <a href="http://www.eeshanmalhotra.com">Eeshan Malhotra</a>
 			</p>
 			</h4>
 		</div>
@@ -113,12 +113,35 @@
 	</div>
 </div>
 <!-- /rules and other stuff  -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-77931273-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=10976788; 
+var sc_invisible=1; 
+var sc_security="7131536b"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" + scJsHost+ "statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="shopify stats" href="http://statcounter.com/shopify/" target="_blank">
+<img class="statcounter" src="//c.statcounter.com/10976788/0/7131536b/1/" alt="shopify stats"></a></div></noscript> 
+<!-- End of StatCounter Code for Default Guide -->
 
 <!-- go to top -->
 <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 0;"></span> <span id="toTopHover" style="opacity: 0;"> </span></a>
 <!--/go to top -->
 
-
+</body>
+</html>
 
 
 
